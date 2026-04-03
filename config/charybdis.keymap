@@ -16,20 +16,6 @@
      * charybdis.conf 에서 CONFIG_PMW3610_SNIPE_LAYERS=0x1 등으로도 설정 가능합니다.
      */
 
-    trackball_listener {
-        compatible = "zmk,input-behavior-listener";
-        device = <&trackball>;
-
-        /* 레이어 1 활성화 시 스크롤 모드 */
-        layers = <FN>;
-        evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_X>;
-        y-input-code = <INPUT_REL_Y>;
-        scale-multiplier = <1>;
-        scale-divisor = <8>;
-        bindings = <&ib_wheel_scaler 1 8>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
