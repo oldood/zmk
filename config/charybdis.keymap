@@ -34,7 +34,7 @@
                 &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp G     &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp SQT
             // ├─────────┼─────┼─────┼─────┼─────┼─────┤       ├─────┼─────┼─────┼─────┼─────┼─────────┤
             // │  LCTRL  │  Z  │  X  │  C  │  V  │  B  │       │  N  │  M  │  ,  │  .  │  /  │  SNIPE  │
-                &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B     &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &mo_snipe
+                &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B     &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &none
             // └─────────┴─────┴─────┼─────┼─────┼─────┘       └─────┼─────┼─────┼──────┴─────┴─────────┘
             //                       │ MO1 │LCLK │RCLK │  WIN  │ MO2 │     │ SPC │ ENT │ RALT│
                                       &mo FN &mkp LCLK &mkp RCLK &kp LGUI &mo NUMPAD    &kp SPACE &kp RET &kp RALT
