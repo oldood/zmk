@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: nickcoutsos
+      url-base: https://github.com/nickcoutsos
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,5 +14,9 @@ manifest:
     - name: zmk-pmw3610-driver
       remote: badjeff
       revision: main
+    - name: keyboardio-nicenano
+      remote: nickcoutsos
+      revision: main
+      path: modules/nicenano
   self:
     path: config
